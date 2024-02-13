@@ -1,0 +1,42 @@
+.main{
+    background-color: #AF7AB3;   /*#94DAFF*/
+    color: #750550;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+}
+
+.box-1{
+    float: left;
+    width: 20%;
+    padding: 70px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ddd;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #981414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  /* Links - change color on hover */
+.navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.liststyle {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddd;
+}
+  
+

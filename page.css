@@ -1,0 +1,225 @@
+*{
+    text-align:center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ddd;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #981414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+.main{
+    color: white;
+    background-color: #FF005C;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+    /*border-style: dotted;
+    border-color: #FF6D28;
+    border-radius: 3%;*/
+}
+
+.container{
+    background-color: linen;
+}
+
+.box-1{
+    background-color: #F2E7D5;/*EEF1FF*/;/*51C4D3*/
+    color: #890F0D;
+    text-align: center;
+    padding-bottom: 5px;
+}
+/*.scroll{
+    text-align: center;
+    color: #9A1663;
+    border-style: double;
+    border-color: #9A1663;
+}*/
+/*.reel{
+    border-style: dashed;
+    border-width: 6px;
+    border-color: #E97777;
+}
+.image::after {
+    content: "";
+    clear: both;
+    display: table;
+  }*/
+ 
+
+
+  
+  /*.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }*/
+
+
+
+  
+
+
+  .sidenav a {
+    position: absolute;
+    left: -60px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .sidenav a:hover {
+    left: 0;
+  }
+  
+  #clothing {
+    top: 170.9px;
+    background-color: #FFA1CF;
+  }
+  
+  #footwear {
+    top: 250px;
+    background-color: #FFA1CF;
+  }
+  #watches {
+    top: 350px;
+    background-color: #FFA1CF;
+  }
+  #jewellery {
+    top: 430px;
+    background-color: #FFA1CF;
+  }
+  #handbags {
+    top: 520px;
+    background-color: #FFA1CF;
+  }
+  
+  
+
+  
+  /*.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}*/
+
+  * {box-sizing: border-box;}
+   .body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  .img {vertical-align: middle;}
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+
+
+
+  
+.box-3{
+    float: left;
+    width: 40%;
+    padding: 70px;
+}
+
+.liststyle {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddd;
+}
+  
+

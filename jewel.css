@@ -1,0 +1,98 @@
+.main{
+    background-color: #F1935C;   /*#94DAFF   #FF8D29*/
+    color: #8F4068;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+}
+.container {
+    position: relative;
+}
+.text{
+    text-decoration: underline;
+    text-decoration-color: #9E7777;
+}
+.text-block {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    border-style: double;
+    border-color: black; 
+    color: #005792;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.list{
+    color: #FF449F;  /*716F81*/
+}
+.img{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.box-1{
+    float: left;
+    width: 20%;
+    padding: 70px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ddd;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #981414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  /* Links - change color on hover */
+.navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.liststyle {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddd;
+}
+  
+
+.sidenav a {
+    position: absolute;
+    left: -60px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .sidenav a:hover {
+    left: 0;
+  }
+  
+  #jewel1 {
+    top: 150px;
+    background-color: #FFA1CF;
+  }
+  #jewel2 {
+    top: 250px;
+    background-color: #FFA1CF;
+  }
+
+  #jewel3 {
+    top: 380px;
+    background-color: #FFA1CF;
+  }
+
+  

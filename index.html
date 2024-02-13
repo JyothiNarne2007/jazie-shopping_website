@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fashion world</title>
+        <link rel="stylesheet" type="text/css" href="page.css">
+    </head>
+    <body class="body">
+        <div class="container">
+        <div class="box-1">
+            <h1 class="main">JAZZY(Just do it....with style)</h1>
+            <h3>Boost your mood, your confidence, and your style credentials with the fashion trends</h3>
+        </div>
+        
+        <!--<div class="scroll">
+        <marquee width="100%" behavior="scroll" direction="up" scrollamount="1">Fashion</marquee>
+        <marquee width="100%" behavior="scroll" direction="right" scrollamount="12">JAZZY</marquee>
+        <marquee width="100%" behavior="scroll" direction="left" scrollamount="20">Trend</marquee>
+        <marquee width="100%" behavior="scroll" direction="right" scrollamount="40">Style</marquee></div>-->
+           <!-- <marquee width="75%" scrollamount="15">
+                <div class="reel">
+                <img src="random pics/disney.JPG" width="350" height="300">
+            <img src="random pics/haloween.JPG" width="450" height="300">
+            <img src="random pics/fruits.jpg" width="450" height="300">
+        </div>
+        </marquee>
+        </div>-->
+        
+<div class="navbar">
+    <ul class="liststyle">
+        <li><a href = "http://www.glwec.in/index.php">Home</a></li>
+        <li><a href="http://www.glwec.in/index.php">About us</a></li>
+        <li><a href= "http://175.101.12.204/moodle/">Contact us</a></li>
+    </ul>
+</div>
+<div class="sidenav">
+    <a href="fashion2.html" id="clothing">Clothing</a>
+    <a href="footwear.html" id="footwear">Foot wear</a>
+    <a href="watches.html" id="watches">Watches</a>
+    <a href="jewellery.html" id="jewellery">Jewellery</a>
+    <a href="handbags and wallets.html" id="handbags">Handbag and Wallet</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+          
+          <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+            <img src="random pics/fashion4.png" style="width:80%">
+            
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="random pics/fashion head.JPG" style="width:70%">
+            
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="random pics/jewellery1.jpeg" style="width:70%">
+           
+          </div>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+          </script>
+        
+        
+
+        <div class="image">
+        <div class="box-3">
+        <h2>1. Clothing</h2>
+        <a href="fashion2.html" target="_parent"><img src="clothing/dresses/1.jpg" width="300" height="300"></a>
+    </div>
+        <div class="box-3">
+        <h2>2. Footwear</h2>
+        <a href="footwear.html" target="_parent"><img src="footwear/image.jpg" width="300" height="300"></a>
+    </div>
+        <div class="box-3">
+        <h2>3. Watches</h2>
+        <a href="watches.html" target="_parent"><img src="watches/gold and rosegold/17.jpg" width="300" height="300"></a>
+    </div>
+        <div class="box-3">
+        <h2>4. Jewellery</h2>
+        <a href="jewellery.html" target="_parent"><img src="jewellery/fashion jewellery/18.JPG" width="300" height="300"></a>
+    </div>
+        <div class="box-3">
+        <h2>5. Handbags and clutches</h2>
+        <a href="handbags and wallets.html" target="_parent"><img src="handbags and wallets/handbags and clutches.jpeg" width="300" height="300"></a>
+    </div>
+       
+</div>
+        </div>
+        
+    </body>
+    
+</html>
